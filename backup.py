@@ -4,7 +4,7 @@ import json
 
 """ Gerar API Key no Grafana,
 rodar comando 'export API_KEY=SUA API KEY AQUI' no terminal
-e setar PATHs corretos no script abaixo"""
+e setar PATHs e URLs corretos no script abaixo"""
 
 """ Dados de autenticação """
 api_key = os.getenv('API_KEY')
